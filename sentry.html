@@ -7,21 +7,33 @@
   crossorigin="anonymous"
 ></script>
 <script>
+  $(document).ready(function(){
+      $("p").text("JQuery working");
+  });
+</script>
+<script>
 Sentry.init({
   dsn: 'https://af2f66e4498246b18066c4cd2b65e9c8@o442880.ingest.sentry.io/5415907',
   release: "1.1"
 });
 </script>
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/dojo/1.14.1/dojo/dojo.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
+<script src="https://somejslibrary.com/somelibrary.js" crossorigin="anonymous"></script>
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+      $("p").text("JQuery working");
+  });
+</script>
+-->
 
 <script>
 let obj={};
-obj.invalidFunction();
+//obj.invalidFunction();
 </script>
 <body>
-  <p>Hello World</p>
+  <p>Jquery not working</p>
 </body>
 
 </head>
