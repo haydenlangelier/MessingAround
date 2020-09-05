@@ -6,11 +6,7 @@
   src="https://browser.sentry-cdn.com/5.22.3/bundle.tracing.min.js"
   crossorigin="anonymous"
 ></script>
-<script>
-  $(document).ready(function(){
-      $("p").text("JQuery working");
-  });
-</script>
+
 <script>
 Sentry.init({
   dsn: 'https://af2f66e4498246b18066c4cd2b65e9c8@o442880.ingest.sentry.io/5415907',
@@ -34,6 +30,7 @@ let obj={};
 </script>
 <body>
   <p>Jquery not working</p>
+  <button onclick="obj.myFunction()">Click me</button>
 </body>
 
 </head>
